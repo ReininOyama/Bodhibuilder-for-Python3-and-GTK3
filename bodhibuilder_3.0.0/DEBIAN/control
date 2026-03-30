@@ -4,7 +4,7 @@ Section: main
 Maintainer: Jeff Hoogland, Stace Fauske & Charles van de Beek
 Architecture: all
 Version: 3.0.0
-Depends: memtest86+, coreutils, dialog, findutils, bash, passwd, sed, squashfs-tools, casper, rsync, mount, eject, libdebian-installer4, os-prober, ubiquity-frontend-debconf, user-setup, discover | discover1, laptop-detect, isolinux, syslinux, syslinux-utils, util-linux, python3, python-is-python3, python3-gi, plymouth-x11, menu, xorriso, genisoimage, mokutil, sbsigntool, dnsutils
+Depends: memtest86+, coreutils, dialog, findutils, bash, passwd, sed, squashfs-tools, casper, rsync, mount, eject, libdebian-installer4, os-prober, ubiquity-frontend-debconf, ubiquity-frontend-gtk, user-setup, discover | discover1, laptop-detect, isolinux, syslinux, syslinux-utils, util-linux, python3, python-is-python3, python3-gi, plymouth-x11, menu, xorriso, genisoimage, mokutil, sbsigntool, dnsutils
 Conflicts: remastersys, remastersys-gtk
 Provides: remastersys, remastersys-gtk
 Description: Scripts used for building Bodhi Linux ISO images
