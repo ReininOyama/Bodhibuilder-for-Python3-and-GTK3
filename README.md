@@ -15,7 +15,7 @@ Bodhibuilder を、Python3, Gobject GTK3 ベースに改良しました。<br>
 これで、自分で作ったカスタム Ubuntu をインストールしただけで簡単に実現できます。<br>
 <br>
 簡単にインストールする方法は、
-sudo dpkg -i bodhibuilder-3.0.0.deb
+sudo dpkg -i bodhibuilder_3.0.0.deb
 とやってから、
 sudo apt --fix-broken install
 を実行することです。
