@@ -14,16 +14,16 @@ Bodhibuilder を、Python3, Gobject GTK3 ベースに改良しました。<br>
 カスタマイズしたデスクトップ環境が、多くの場合そのままデフォルトで反映されます。<br>
 これで、自分で作ったカスタム Ubuntu をインストールしただけで簡単に実現できます。<br>
 <br>
-簡単にインストールする方法は、
-sudo dpkg -i bodhibuilder_3.0.0.deb
-とやってから、
-sudo apt --fix-broken install
-を実行することです。
-あ！そうそう！
-ubiquityのスライドショーのどれかをインストールしないと、
-bodhi のスライドショーになってしまいます。
-嫌な人は、
-sudo apt install ubiquity-slideshow-ubuntu(ubuntu でなくても xubuntu でもその他でもいい)
-とやっておくこと。
-/usr/share/ubiquity-slldeshow 以下に独自のスライドショーを入れておくのも可です。
+簡単にインストールする方法は、<br>
+sudo dpkg -i bodhibuilder_3.0.0.deb<br>
+とやってから、<br>
+sudo apt --fix-broken install<br>
+を実行することです。<br>
+あ！そうそう！<br>
+ubiquityのスライドショーのどれかをインストールしないと、<br>
+bodhi のスライドショーになってしまいます。<br>
+嫌な人は、<br>
+sudo apt install ubiquity-slideshow-ubuntu(ubuntu でなくても xubuntu でもその他でもいい)<br>
+とやっておくこと。<br>
+/usr/share/ubiquity-slldeshow 以下に独自のスライドショーを入れておくのも可です。<br>
 では、お楽しみください。<br>
