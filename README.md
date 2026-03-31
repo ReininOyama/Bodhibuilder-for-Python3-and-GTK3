@@ -19,4 +19,11 @@ sudo dpkg -i bodhibuilder_3.0.0.deb
 とやってから、
 sudo apt --fix-broken install
 を実行することです。
+あ！そうそう！
+ubiquityのスライドショーのどれかをインストールしないと、
+bodhi のスライドショーになってしまいます。
+嫌な人は、
+sudo apt install ubiquity-slideshow-ubuntu(ubuntu でなくても xubuntu でもその他でもいい)
+とやっておくこと。
+/usr/share/ubiquity-slldeshow 以下に独自のスライドショーを入れておくのも可です。
 では、お楽しみください。<br>
