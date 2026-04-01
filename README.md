@@ -27,3 +27,6 @@ sudo apt install ubiquity-slideshow-ubuntu(ubuntu でなくても xubuntu でも
 とやっておくこと。<br>
 /usr/share/ubiquity-slldeshow 以下に独自のスライドショーを入れておくのも可です。<br>
 では、お楽しみください。<br>
+<br>
+バージョン 3.0.0 は、テストしたら、全然ダメでした。（再起動すると変になる？）
+バージョン 3.0.1 は、一応真っ当になったはずです。<br>
