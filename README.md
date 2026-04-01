@@ -28,5 +28,13 @@ sudo apt install ubiquity-slideshow-ubuntu(ubuntu でなくても xubuntu でも
 /usr/share/ubiquity-slldeshow 以下に独自のスライドショーを入れておくのも可です。<br>
 では、お楽しみください。<br>
 <br>
-バージョン 3.0.0 は、テストしたら、全然ダメでした。（再起動すると変になる？）
-バージョン 3.0.1 は、一応真っ当になったはずです。<br>
+テスト環境では正常なのに 新規環境に dpkg でインストールすると動作しなかった。<br>
+<br>
+原因は、Ubuntuのパッケージ管理のバグの様だ。<br>
+ubiquity-frontend-gtkは、前提ソフトなのですが、<br>
+前提条件に含めてパッケージを作製すると<br>
+何故か、あらぬタイミングで自分自身を消去してしまいます。<br>
+仕方ないので、前提から外しました。<br>
+sudo apt install ubiquity-frontend-gtk<br>
+は、最初に別途実行してからインストールを進めてください。<br>
+何と奇っ怪な現象があるものですね。<br>
