@@ -15,6 +15,8 @@ Bodhibuilder を、Python3, Gobject GTK3 ベースに改良しました。<br>
 これで、自分で作ったカスタム Ubuntu をインストールしただけで簡単に実現できます。<br>
 <br>
 簡単にインストールする方法は、<br>
+sudo apt update<br>
+sudo apt install ubiquity-frontend-gtk<br>
 sudo dpkg -i bodhibuilder_3.0.3.deb<br>
 とやってから、<br>
 sudo apt --fix-broken install<br>
