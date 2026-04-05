@@ -49,4 +49,13 @@ ubiquity-frontend-gtkは、前提ソフトなのですが、<br>
 リポジトリを消したいなら、<br>
 echo "# Ubuntu sources have moved to /etc/apt/sources.list.d/ubuntu.sources" > /etc/apt/sources.list<br>
 と書いておきましょう。<br>
+<br>
+1つ忘れていました。<br>
+Settings の一番下の<br>
+Squish filesystem Options には、「-no-recovery -always-use-fragments -b 1M -no-duplicates」
+書くのが良いと、どこかのサイトに書いてありましたが、<br>
+「-no-recovery -always-use-fragments -b 1M -no-duplicates -comp xz」<br>
+と書くと xz圧縮で isoのサイズが数GBも小さく出来ます。<br>
+昔のマシンでは xz圧縮は遅くて使えなかったのですが、<br>
+今どきのマシンでは、全然遅くないです。<br>
 
