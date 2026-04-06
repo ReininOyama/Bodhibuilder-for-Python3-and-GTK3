@@ -48,7 +48,7 @@ ubiquity-frontend-gtkは、前提ソフトなのですが、<br>
 そこで、そこにインストール後の細かい修正を書けます。<br>
 リポジトリを消したいなら、<br>
 echo "# Ubuntu sources have moved to /etc/apt/sources.list.d/ubuntu.sources" > /etc/apt/sources.list<br>
-と書いておきましょう。<br>
+と書いておきましょう。(yes | rm -f /etc/rc.local　で自分を消す前です)<br>
 <br>
 1つ忘れていました。<br>
 Settings の一番下の<br>
