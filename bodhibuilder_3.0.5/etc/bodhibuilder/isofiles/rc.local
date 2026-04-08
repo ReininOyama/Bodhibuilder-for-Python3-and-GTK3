@@ -15,6 +15,10 @@ if [ "${ARCH}" = "amd64" ] ; then
   apt-get update
 fi
 
+ssh-keygen -A
+
+echo "# Ubuntu sources have moved to /etc/apt/sources.list.d/ubuntu.sources" > /etc/apt/sources.list
+
 sleep 7
 
 yes | rm -f /etc/rc.local
