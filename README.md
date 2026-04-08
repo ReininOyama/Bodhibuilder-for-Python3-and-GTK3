@@ -12,12 +12,12 @@ Dist メニューで　インストール用の iso を作製する機能以外�
 １つアドバイスです。<br>
 /etc/skel に .config .local などを複製すると、<br>
 カスタマイズしたデスクトップ環境が、多くの場合そのままデフォルトで反映されます。<br>
-これで、自分で作ったカスタム Ubuntu をインストールしただけで簡単に実現できます。<br>
+これで、自分で作ったカスタムUbuntu をインストールしただけで簡単に実現できます。<br>
 <br>
 簡単にインストールする方法は、<br>
 sudo apt update<br>
 sudo apt install ubiquity-frontend-gtk  (必須)<br>
-sudo dpkg -i bodhibuilder_3.0.4.deb<br>
+sudo dpkg -i bodhibuilder_3.0.5.deb<br>
 とやってから、<br>
 sudo apt --fix-broken install<br>
 を実行することです。<br>
@@ -49,6 +49,8 @@ ubiquity-frontend-gtkは、前提ソフトなのですが、<br>
 リポジトリを消したいなら、<br>
 echo "# Ubuntu sources have moved to /etc/apt/sources.list.d/ubuntu.sources" > /etc/apt/sources.list<br>
 と書いておきましょう。(yes | rm -f /etc/rc.local　で自分を消す前です)<br>
+バージョン 3.0.5<br>
+上記の echo と、sshの初期化を rc.localに追記しました。<br>
 <br>
 1つ忘れていました。<br>
 Settings の一番下の<br>
@@ -58,4 +60,7 @@ Squish filesystem Options には、「-no-recovery -always-use-fragments -b 1M -
 と書くと xz圧縮で isoのサイズが数GBも小さく出来ます。<br>
 昔のマシンでは xz圧縮は遅くて使えなかったのですが、<br>
 今どきのマシンでは、全然遅くないです。<br>
+<br>
+参考サイト<br>
+https://old.hayao0819.com/buildmydist/page/makeiso.html<br>
 
