@@ -17,7 +17,7 @@ Dist メニューで　インストール用の iso を作製する機能以外�
 簡単にインストールする方法は、<br>
 sudo apt update<br>
 sudo apt install ubiquity-frontend-gtk  (必須)<br>
-sudo dpkg -i bodhibuilder_3.0.5.deb<br>
+sudo dpkg -i bodhibuilder_3.0.6.deb<br>
 とやってから、<br>
 sudo apt --fix-broken install<br>
 を実行することです。<br>
