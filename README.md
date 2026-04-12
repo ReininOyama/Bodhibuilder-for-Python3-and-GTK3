@@ -51,6 +51,8 @@ echo "# Ubuntu sources have moved to /etc/apt/sources.list.d/ubuntu.sources" > /
 と書いておきましょう。(yes | rm -f /etc/rc.local　で自分を消す前です)<br>
 バージョン 3.0.5<br>
 上記の echo と、sshの初期化を rc.localに追記しました。<br>
+バージョン 3.0.6 3.0.7<br>
+最初の Grubのメニューのデフォルトを２行目のダイレクトインストールにしました。<br>
 <br>
 1つ忘れていました。<br>
 Settings の一番下の<br>
