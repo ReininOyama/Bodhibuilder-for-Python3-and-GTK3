@@ -1,5 +1,5 @@
 # Bodhibuilder-for-Python3-and-GTK3<br>
-Bodhibuilder 3.0.0 based Python3 and Gobject GTK3 for  Ubuntu 24.04 series.<br>
+Bodhibuilder 3.0.7 based Python3 and Gobject GTK3 for  Ubuntu 24.04 series.<br>
 <br>
 Bodhibuilder を、Python3, Gobject GTK3 ベースに改良しました。<br>
 これで、Ubuntu 24.04系に 普通にインストールして動作させる事ができます。<br>
@@ -62,6 +62,10 @@ Squish filesystem Options には、「-no-recovery -always-use-fragments -b 1M -
 と書くと xz圧縮で isoのサイズが数GBも小さく出来ます。<br>
 昔のマシンでは xz圧縮は遅くて使えなかったのですが、<br>
 今どきのマシンでは、全然遅くないです。<br>
+<br>
+ヒント：プラズマデスクトップとかになってしまった場合の対処方法。<br>
+例の　/etc/bodhibuilder/isofiles/rc.local
+で、 sed などで、 Session=plasma.desktop になってる行をログインさせたいデスクトップに変更する。<br>
 <br>
 参考サイト<br>
 https://old.hayao0819.com/buildmydist/page/makeiso.html<br>
