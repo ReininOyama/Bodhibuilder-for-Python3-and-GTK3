@@ -67,6 +67,9 @@ Squish filesystem Options には、「-no-recovery -always-use-fragments -b 1M -
 例の　/etc/bodhibuilder/isofiles/rc.local
 で、 sed などで、 Session=plasma.desktop になってる行をログインさせたいデスクトップに変更する。<br>
 <br>
+ヒントその２：キーリングが変になったとき<br>
+/etc/skel/.local/share/keyrings 以下を全部消す。<br>
+<br>
 参考サイト<br>
 https://old.hayao0819.com/buildmydist/page/makeiso.html<br>
 
