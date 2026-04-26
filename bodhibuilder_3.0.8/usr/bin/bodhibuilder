@@ -419,19 +419,19 @@ cdfs (){
       ubiquity_frontend_gtk_status=`dpkg --get-selections | grep ubiquity-frontend-gtk`
       if [ "${ubiquity_frontend_gtk_status}" ] ; then
         #~ apt-get -y -q remove ubiquity-frontend-gtk &> /dev/null
-        apt-get -y -q remove ubiquity-frontend-gtk &>> ${WORKDIR}/bodhibuilder.log
+        # apt-get -y -q remove ubiquity-frontend-gtk &>> ${WORKDIR}/bodhibuilder.log
         sleep 1
       else
         echo "ubiquity-frontend-gtk not initially installed" >> ${WORKDIR}/bodhibuilder.log
       fi
       # install ubiquity-frontend-gtk regardless
       #~ apt-get -y -q install ubiquity-frontend-gtk &> /dev/null
-      apt-get -y -q install ubiquity-frontend-gtk &>> ${WORKDIR}/bodhibuilder.log
+      # apt-get -y -q install ubiquity-frontend-gtk &>> ${WORKDIR}/bodhibuilder.log
       sleep 1
       ubiquity_frontend_kde_status=`dpkg --get-selections | grep ubiquity-frontend-kde`
       if [ "${ubiquity_frontend_kde_status}" ] ; then
         #~ apt-get -y -q remove ubiquity-frontend-kde &> /dev/null
-        apt-get -y -q remove ubiquity-frontend-kde &>> ${WORKDIR}/bodhibuilder.log
+        # apt-get -y -q remove ubiquity-frontend-kde &>> ${WORKDIR}/bodhibuilder.log
         sleep 1
       else
         echo "ubiquity-frontend-kde not initially installed" >> ${WORKDIR}/bodhibuilder.log
@@ -441,7 +441,7 @@ cdfs (){
       ubiquity_frontend_gtk_status=`dpkg --get-selections | grep ubiquity-frontend-gtk`
       if [ ! "${ubiquity_frontend_gtk_status}" ] ; then
         #~ apt-get -y -q install ubiquity-frontend-gtk &> /dev/null
-        apt-get -y -q install ubiquity-frontend-gtk &>> ${WORKDIR}/bodhibuilder.log
+        # apt-get -y -q install ubiquity-frontend-gtk &>> ${WORKDIR}/bodhibuilder.log
         sleep 1
       else
         echo "ubiquity-frontend-gtk installed -- re-check" >> ${WORKDIR}/bodhibuilder.log

@@ -57,7 +57,7 @@ from gi.repository import Gtk, Vte, GLib
 
 APP = "bodhibuilder"
 DIR = "/usr/share/locale"
-APP_VERSION = "3.0.7"
+APP_VERSION = "3.0.8"
 
 locale.setlocale(locale.LC_ALL, '')
 gettext.bindtextdomain(APP, DIR)
