@@ -53,6 +53,10 @@ echo "# Ubuntu sources have moved to /etc/apt/sources.list.d/ubuntu.sources" > /
 上記の echo と、sshの初期化を rc.localに追記しました。<br>
 バージョン 3.0.6 3.0.7<br>
 最初の Grubのメニューのデフォルトを２行目のダイレクトインストールにしました。<br>
+バージョン 3.0.8<br>
+ubiquity-frontend-gtk<br>
+を、何故か？アンインストールしてからインストールし直していた。<br>
+意味不明なだけでなく、怪奇現象の主因でると判断して消しました。<br>
 <br>
 1つ忘れていました。<br>
 Settings の一番下の<br>
